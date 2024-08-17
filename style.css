@@ -1,0 +1,44 @@
+body{
+    background-color: #a21309;
+    
+}
+#vaiparaesquerda{
+    padding-left: 45%;
+    text-align: center;
+   
+}
+#vaiparaesquerdas{
+    padding-top: 7%  ;
+    padding-left: 5%;
+    text-align: center;
+   
+}
+
+#amarelofundo{
+    
+    background-color: #ffbb00;
+    height: 80px;
+   width: 25%;
+   text-align: center;
+}
+#linhavermelha{
+  padding-top: 20px;
+ font-size: 24px;
+    color: #a21309;
+    text-decoration: none;
+}
+@MEDIA(max-width:600px)
+{
+ 
+    img{
+        height: 35vh;
+    }
+#amarelofundo{
+    height: 10vh;
+    width: 38vw;
+  
+}
+#vaiparaesquerda{
+ padding-left: 35%;
+}
+}

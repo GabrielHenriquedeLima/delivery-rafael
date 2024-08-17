@@ -1,0 +1,249 @@
+header{
+    background-color: red;
+    color: rgb(252 255 104);
+    height: 15vh;
+    
+    font-size: 37px;
+}
+header h1{
+    padding-top: 2%;
+    padding-left: 38%;
+}
+*{
+    margin: 0px;
+}
+#tres{
+    
+   width: 90%;
+  
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: red;
+    color: rgb(252 255 104);
+ 
+}
+#dois{
+    width: 90%;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: red;
+    color: rgb(252 255 104);
+   
+}
+main{
+    background-color: rgb(252 255 104);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+  
+   height: 85vh;
+}
+#tudo{
+    padding-top: 1%;
+    padding-left: 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    row-gap: 30px;
+}
+img{
+    height: 7vh;
+}
+#ham{
+    width: 7vw;
+}
+#tres a{
+    padding-left: 2%;
+    
+    font-size: 36px;
+    text-decoration: none;
+    color: rgb(252 255 104);
+}
+#dois a{
+padding-left: 2%;
+   
+    font-size: 36px;
+    text-decoration: none;
+    color: rgb(252 255 104);
+}
+#tres span{
+    font-size: 36px;
+  
+    color: rgb(252 255 104);
+}
+#tresp{
+    color: red;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 50%;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+
+}
+#tresin{
+    padding-left: 4%;
+    padding-right: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+}
+#tresin input{
+    width: 80%;
+}
+#doisdiv{
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1%;
+    column-gap: 50px;
+   
+}
+#umadiv{
+    background-color: red;
+    
+width: 30%;
+text-align: center;
+border-radius: 50px;
+}
+#umadiv a{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(252 255 104);
+}
+#divbotao button{
+    background-color: red;
+    color: rgb(252 255 104);
+    height: 5vh;
+    width: 20%;
+    border-radius: 50px;
+}
+@media(max-width: 600px)
+{
+    header{
+        background-color: red;
+        color: rgb(252 255 104);
+        height: 15vh;
+        
+        font-size: 37px;
+    }
+    header h1{
+        padding-top: 5%;
+        padding-left: 28%;
+    }
+    *{
+        margin: 0px;
+    }
+    #tres{
+        
+       width: 90%;
+      display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        color: rgb(252 255 104);
+     text-align: center;
+     align-items: center;
+     
+    }
+    #dois{
+        width: 90%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        color: rgb(252 255 104);
+       text-align: center;
+      align-items: center;
+    }
+    main{
+        background-color: rgb(252 255 104);
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+      
+       height: 150vh;
+    }
+    #tudo{
+        padding-top: 1%;
+        padding-left: 5%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        row-gap: 30px;
+    }
+    img{
+        height: 10vh;
+        width: 30vw;
+    }
+    #ham{
+        width: 27vw;
+    }
+    #tres a{
+        padding-left: 2%;
+        
+        font-size: 24px;
+        text-decoration: none;
+        color: rgb(252 255 104);
+    }
+    #dois a{
+    padding-left: 2%;
+       
+    font-size: 24px;
+        text-decoration: none;
+        color: rgb(252 255 104);
+    }
+    #tres span{
+        font-size: 24px;
+      
+        color: rgb(252 255 104);
+    }
+    #tresp{
+        color: red;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 50%;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+    column-gap: 40px;
+    }
+    #tresin{
+        padding-left: 4%;
+        padding-right: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        column-gap: 30px;
+    }
+    #tresin input{
+        width: 100%;
+        height: 5vh;
+    }
+    #doisdiv{
+        padding-left: 20%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 1%;
+        column-gap: 50px;
+       
+    }
+    #umadiv{
+        background-color: red;
+        height: 5vh;
+    width: 70%;
+    text-align: center;
+    border-radius: 50px;
+    }
+    #umadiv a{
+        font-size: 28px;
+        text-decoration: none;
+        color: rgb(252 255 104);
+    }
+    #divbotao button{
+        background-color: red;
+        color: rgb(252 255 104);
+        height: 5vh;
+        width: 50%;
+        border-radius: 50px;
+    } 
+}

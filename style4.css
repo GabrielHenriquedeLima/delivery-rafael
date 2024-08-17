@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(252 255 104);
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: red;
+
+}
+header div{
+    font-size: 24px;
+}
+header input{
+    width: 85%;
+    height: 5vh;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 70vh;
+}
+#tres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#quatro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 70px;
+    align-items: center;
+}
+#meio{
+   background-color: red;
+   height: 35%;
+   width: 100%;
+   border-radius: 50px;
+
+}
+#meio a{
+    font-size: 45px;
+    color: rgb(252 255 104);
+    text-decoration: none;
+}
+#esquerda{
+    color: red;
+    padding-right: 90%;
+    font-size: 28x;
+}
+#relativo{
+    position: relative;
+}
+#absolute{ position: absolute;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+      opacity: 0;
+    color: red;
+      top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    margin-top: 3px;
+    justify-content: space-between;
+      z-index: -10;
+      transition: 0.5s;
+    background-color: white;
+    }
+    #absolute a{
+        text-decoration: none;
+        color: red;
+        
+    }
+      #check { position: absolute;
+        width: 100%;
+        height:100%;
+        left: 0;
+        opacity: 0;
+    
+    }
+        
+        #check:checked~#absolute{opacity: 1;
+        z-index: 10;
+          top: 32px; }
+@media(max-width: 600px)
+{
+    body{
+        background-color: rgb(252 255 104);
+        text-align: center;
+    }
+    header{
+        text-align: center;
+        color: red;
+   
+    }
+    header div{
+        font-size: 24px;
+    }
+    header input{
+        width: 85%;
+        height: 5vh;
+    }
+    main{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    #tres{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+    }
+    #quatro{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        column-gap: 70px;
+        align-items: center;
+    }
+    #meio{
+       background-color: red;
+       height: 35%;
+       width: 100%;
+       border-radius: 50px;
+    
+    }
+    #meio a{
+        font-size: 45px;
+        color: rgb(252 255 104);
+        text-decoration: none;
+    }
+    #esquerda{
+        color: red;
+        padding-right: 90%;
+        font-size: 32px;
+    }
+    #relativo{
+        position: relative;
+    }
+    #absolute{ position: absolute;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+          opacity: 0;
+        color: red;
+          top: 50px;
+        display: flex;
+        flex-direction: column;
+        height: 160px;
+        margin-top: 3px;
+        justify-content: space-between;
+          z-index: -10;
+          transition: 0.5s;
+        background-color: white;
+        }
+        #absolute a{
+            text-decoration: none;
+            color: red;
+            
+        }
+          #check { position: absolute;
+            width: 100%;
+            height:100%;
+            left: 0;
+            opacity: 0;
+        
+        }
+            
+            #check:checked~#absolute{opacity: 1;
+            z-index: 10;
+              top: 32px; }
+}

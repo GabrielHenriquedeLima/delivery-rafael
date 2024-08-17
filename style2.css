@@ -1,0 +1,295 @@
+header{
+   background-color: rgb(166 0 0);
+   height: 200px;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+}
+header div{
+    height: 150px;
+}
+*{
+    margin: 0px;
+}
+#pgbuscaimg{
+    padding-left: 10%;
+    padding-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    text-align: baseline;
+  
+}
+#pgbuscaimg div{
+height: 30%;
+
+}
+#inputy{
+    padding-top: 10%;
+    
+}
+#lupa{
+    height: 3vh;
+    background-color: white;
+}
+#fiel{
+   height: 20%;
+width: 100%;
+  
+    background-color: white;
+}
+#fiel input{
+    height: 100%;
+    width: 90%;
+}
+#imgdelivery{
+    height: 100%;
+}
+main{
+   
+    background-color: rgb(252 255 104);
+  height: 600px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+ 
+   
+}
+footer{
+   
+    background-color: rgb(242 17 17);
+    color: white;
+    fill: white;
+    height: 130px;
+}
+#imgab{
+   height: 180px;
+}
+#duasimg{
+    padding-top: 1.5%;
+    padding-left: 15%;
+   column-gap: 40%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#diminuir{
+    height: 3vh;
+}
+#meio {
+    padding-left: 40%;
+}
+#ponte{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15%;
+    column-gap: 20%;
+    padding-bottom: 10%;
+}
+#reto{
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#botoes a{
+    padding-top: 100%;
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+}
+#botoes{
+    border: solid black;
+   background-color: rgb(246 185 59);
+    width: 70%;
+    height: 25%;
+text-align: center;
+   
+}
+#botoesi{
+    border: solid black;
+   background-color: rgb(246 185 59);
+    width: 70%;
+    height: 25%;
+text-align: center;
+   
+}
+#botoesi a{
+    padding-top: 100%;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+#doisicones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    padding-left: 10%;
+    padding-right: 58%;
+}
+#doisiconex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 68%;
+   
+}
+input{
+    border: none;
+}
+@media(max-width: 600px)
+{
+    header{
+        width: 500px;
+        background-color: rgb(166 0 0);
+     height: 300px;
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        row-gap: 100px;
+     }
+     header div{
+         height: 150px;
+     }
+     *{
+         margin: 0px;
+     }
+     #pgbuscaimg{
+       
+      
+         display: flex;
+         flex-direction: column;
+         
+       
+     }
+     #pgbuscaimg div{
+     height: 100px;
+     
+     }
+     #inputy{
+        padding-top: 10%;
+         
+     }
+     #lupa{
+         height: 3vh;
+         background-color: white;
+     }
+     #fiel{
+        height: 80%;
+     width: 100%;
+       
+         background-color: white;
+     }
+     #fiel input{
+         height: 80%;
+         width: 80%;
+     }
+     #imgdelivery{
+        padding-left: 40%;
+      height: 150px;
+     }
+     main{
+        
+         background-color: rgb(252 255 104);
+       height: 950px;
+       width: 500px;
+       display: grid;
+       grid-template-rows: 1fr 1fr 1fr;
+       display: flex;
+       flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+        
+     }
+     footer{
+        
+         background-color: rgb(242 17 17);
+         color: white;
+         fill: white;
+         height: 130px;
+         width: 750px;
+     }
+     
+     #duasimg{
+        height: 250px;
+        
+         padding-top: 7%;
+         padding-left: 0%;
+       
+         
+      
+         display: flex;
+         flex-direction: column;
+         row-gap: 60px;
+     }
+     #diminuir{
+         height: 3vh;
+     }
+     #meio {
+        height: 250px;
+        padding-top: 15%;
+        padding-left: 0%;
+        
+     }
+     #ponte{
+        height: 250px;
+         display: flex;
+         flex-direction: column;
+         row-gap: 120px;
+         
+         padding-left: 0%;
+         padding-bottom: 10%;
+     }
+     #reto{
+        height: 100px;
+        width: 100%;
+        
+        padding-left: 0%;
+         display: grid;
+         grid-template-columns: repeat(5,1fr);
+     }
+     #botoes a{
+         padding-top: 100%;
+         text-decoration: none;
+         color: red;
+         font-size: 18px;
+     }
+     #botoes{
+         border: solid black;
+        background-color: rgb(246 185 59);
+         width: 70%;
+         height: 25%;
+     text-align: center;
+        
+     }
+     #botoesi{
+        border: solid black;
+       background-color: rgb(246 185 59);
+        width: 70%;
+        height: 40%;
+    text-align: center;
+       
+    }
+    #botoesi a{
+        padding-top: 100%;
+        text-decoration: none;
+        color: red;
+        font-size: 18px;
+    }
+     #doisicones{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         column-gap: 0px;
+         padding-left: 10%;
+         padding-right: 40%;
+     }
+     #doisiconex{
+         display: grid;
+         grid-template-columns: 1fr 1fr ;
+         justify-content: space-between;
+         padding-left: 10%;
+         padding-right: 65%;
+        
+     }
+     #imgab{
+        height: 10vh;
+        width: 50vw;
+     }
+}

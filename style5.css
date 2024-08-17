@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: red;
+    color: rgb(252 255 104);
+   
+    height: 15vh;
+    font-size: 37px;
+  
+}
+header h1{
+    padding-top: 2%;
+    padding-left: 36%;
+}
+footer{
+   
+    background-color: rgb(242 17 17);
+    color: white;
+    fill: white;
+height: 20vh;
+}
+#diminuir{
+    height: 3vh;
+}
+#doisicones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    padding-left: 10%;
+    padding-right: 50%;
+    
+}
+#doisiconex{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: space-between;
+  padding-left: 10%;
+    padding-right: 68%;
+   
+}
+main{
+   background-color: rgb(252 255 104);
+   color: red;
+   height: 80vh;
+   text-align: center;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   column-gap: 10px;
+  
+}
+main img{
+    padding-top: 1%;
+    height: 50vh;
+}
+#parabaixo{
+    padding-top: 2%;
+    font-size: 24px;
+}
+#paracima{
+    padding-left: 40%;
+    padding-bottom: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   align-items: end;
+}
+#paracima div{
+    
+    text-align: center;
+    width: 40%;
+   border-radius: 50px;
+   padding-top: 2%;
+    background-color: red;
+    height: 6vh;
+}
+#paracima a{
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(252 255 104);
+}
+@media(max-width: 600px){
+    *{
+        margin: 0px;
+    }
+    
+    header{
+        background-color: red;
+        color: rgb(252 255 104);
+       
+        height: 15vh;
+        font-size: 30px;
+      
+    }
+    header h1{
+        padding-top: 5%;
+        padding-left: 15%;
+    }
+    footer{
+       
+        background-color: rgb(242 17 17);
+        color: white;
+        fill: white;
+    height: 20vh;
+    }
+    #diminuir{
+        height: 3vh;
+    }
+    #doisicones{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0px;
+        padding-left: 5%;
+       padding-right: 1%; 
+       font-size: 14px;
+    }
+    #doisiconex{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+      
+        padding-right: 40%;
+       
+    }
+    main{
+       background-color: rgb(252 255 104);
+       color: red;
+       height: 80vh;
+       text-align: center;
+       display: grid;
+       grid-template-rows: 1fr 1fr;
+       column-gap: 10px;
+      
+    }
+    main img{
+        padding-top: 1%;
+        height: 45vh;
+    }
+    #parabaixo{
+        padding-top: 2%;
+        font-size: 20px;
+    }
+    #paracima{
+        padding-left: 1%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      align-items: center;
+    }
+    #paracima div{
+        
+        text-align: center;
+        width: 40%;
+       border-radius: 50px;
+       padding-top: 2%;
+        background-color: red;
+        height: 6vh;
+    }
+    #paracima a{
+        font-size: 26px;
+        text-decoration: none;
+        color: rgb(252 255 104);
+    }
+}

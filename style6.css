@@ -1,0 +1,192 @@
+header{
+    background-color: red;
+    color: rgb(252 255 104);
+    height: 15vh;
+    
+    font-size: 37px;
+}
+header h1{
+    padding-top: 2%;
+    padding-left: 38%;
+}
+*{
+    margin: 0px;
+}
+footer{
+   
+    background-color: rgb(242 17 17);
+    text-align: center;
+    fill: white;
+    height: 15vh;
+    padding-top: 2%;
+        display: grid;
+        grid-template-columns: 2fr 2fr 0.5fr;
+        column-gap: 10px;
+        color: rgb(252 255 104);
+
+}
+footer div{
+   padding-top: 5%;
+    font-size: 12px;
+}
+#botaovoltar{
+    background-color: rgb(252 255 104);
+    border-radius: 50px;
+   height: 50%;
+  text-align: center;
+   padding-top: 15%;
+
+
+
+}
+#botaovoltar a{
+   
+    
+ 
+    font-size: 24px;
+    color: rgb(242 17 17);
+    text-decoration: none;
+}
+main{
+    height: 70vh;
+    background-color: rgb(252 255 104);
+   
+    
+}
+fieldset{
+    background-color: red;
+    width: 25%;
+    height: 65vh;
+    color: rgb(252 255 104);
+    display: grid; 
+}
+fieldset h1{
+    padding-top: 15%;
+}
+fieldset input[type="text"] {
+    height: 2vh;
+   
+}
+fieldset input[type="email"] {
+    height: 2vh;
+   
+}
+fieldset input[type="tel"] {
+    height: 2vh;
+   
+}
+fieldset input[type="textarea"] {
+    height: 8vh;
+   
+}
+fieldset button{
+ 
+    width: 80%;
+    height: 9vh;
+    border-radius: 50px;
+    background-color: rgb(252 255 104);
+    color: rgb(242 17 17);
+    font-size: 18px;
+}
+main div {
+    padding-top: 1%;
+ padding-left: 40%;
+}
+@media(max-width: 600px){
+    header{
+        background-color: red;
+        color: rgb(252 255 104);
+        height: 15vh;
+        
+        font-size: 37px;
+    }
+    header h1{
+        padding-top: 5%;
+        padding-left: 28%;
+    }
+    *{
+        margin: 0px;
+    }
+    footer{
+       
+        background-color: rgb(242 17 17);
+        text-align: center;
+        fill: white;
+        height: 32vh;
+        padding-top: 2%;
+            display: grid;
+            grid-template-rows: 2fr 2fr 0.5fr;
+           display: flex;
+           flex-direction: column;
+           row-gap: 70px;
+            color: rgb(252 255 104);
+    
+    }
+    footer div{
+        padding-top: 5%;
+         font-size: 12px;
+     }
+     #botaovoltar{
+        background-color: rgb(252 255 104);
+        border-radius: 50px;
+       height: 20%;
+      text-align: center;
+      padding-top: 0%;
+
+
+
+    }
+    #botaovoltar a{
+       
+        
+     
+        font-size: 24px;
+        color: rgb(242 17 17);
+        text-decoration: none;
+    }
+    main{
+        height: 70vh;
+        background-color: rgb(252 255 104);
+       
+        
+    }
+    fieldset{
+        background-color: red;
+        width: 25%;
+        height: 65vh;
+        color: rgb(252 255 104);
+        display: grid; 
+    }
+    fieldset h1{
+        padding-top: 15%;
+    }
+    fieldset input[type="text"] {
+        height: 2vh;
+       
+    }
+    fieldset input[type="email"] {
+        height: 2vh;
+       
+    }
+    fieldset input[type="tel"] {
+        height: 2vh;
+       
+    }
+    fieldset input[type="textarea"] {
+        height: 8vh;
+       
+    }
+    fieldset button{
+     
+        width: 80%;
+        height: 9vh;
+        border-radius: 50px;
+        background-color: rgb(252 255 104);
+        color: rgb(242 17 17);
+        font-size: 18px;
+    }
+    main div {
+        padding-top: 1%;
+     padding-left: 40%;
+    }
+}

@@ -1,0 +1,202 @@
+header{
+    background-color: red;
+    color: rgb(252 255 104);
+    height: 15vh;
+    
+    font-size: 37px;
+}
+header h1{
+    padding-top: 2%;
+    padding-left: 28%;
+}
+*{
+    margin: 0px;
+}
+footer{
+   
+    background-color: rgb(242 17 17);
+    text-align: center;
+    fill: white;
+    height: 15vh;
+    padding-top: 2%;
+        display: grid;
+        grid-template-columns: 2fr 2fr 0.5fr;
+        column-gap: 10px;
+        color: rgb(252 255 104);
+
+}
+#quatroitens{
+    padding-left: 3%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 0px;
+}
+img{
+    height: 20vh;
+}
+footer div{
+   padding-top: 5%;
+    font-size: 12px;
+}
+#botaovoltar{
+    background-color: rgb(252 255 104);
+    border-radius: 50px;
+   height: 50%;
+  text-align: center;
+   padding-top: 15%;
+
+
+
+}
+#botaovoltar a{
+   
+    
+ 
+    font-size: 24px;
+    color: rgb(242 17 17);
+    text-decoration: none;
+}
+main{
+    height: 70vh;
+    background-color: rgb(252 255 104);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    color: red;
+}
+#doisp{
+    padding-left: 4%;
+    padding-top: 3%;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#doisimgp{
+    text-align: center;
+    padding-right: 20%;
+    font-size: 24px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 0px;
+align-items: center;
+justify-content: center;
+
+}
+#doisimgpi{
+    padding-left: 5%;
+   font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding-bottom: 3%;
+    }
+    @media(max-width: 600px)
+    {
+        *{
+            margin: 0px;
+        }
+        header{
+            background-color: red;
+            color: rgb(252 255 104);
+            height: 15vh;
+            
+            font-size: 22px;
+        }
+        header h1{
+            padding-top: 10%;
+            padding-left: 20%;
+        }
+      
+        footer{
+           
+            background-color: rgb(242 17 17);
+            text-align: center;
+            fill: white;
+            height: 25vh;
+            padding-top: 2%;
+                display: grid;
+                grid-template-rows: 2fr 2fr 0.5fr;
+               display: flex;
+               flex-direction: column;
+               row-gap: 40px;
+                color: rgb(252 255 104);
+        
+        }
+        footer div{
+           padding-top: 5%;
+            font-size: 12px;
+        }
+        
+            #botaovoltar{
+                background-color: rgb(252 255 104);
+                border-radius: 50px;
+               height: 20%;
+              text-align: center;
+              padding-top: 0%;
+        
+        
+        
+            }
+            #botaovoltar a{
+               
+                
+             
+                font-size: 24px;
+                color: rgb(242 17 17);
+                text-decoration: none;
+            }
+        #quatroitens{
+            padding-left: 3%;
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            column-gap: 0px;
+        }
+        img{
+            height: 10vh;
+        }
+    
+        main{
+            height: 90vh;
+            background-color: rgb(252 255 104);
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            color: red;
+        }
+        #doisp{
+            padding-left: 4%;
+            padding-top: 3%;
+            font-size: 18px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 8%;
+        }
+        #doisimgp{
+            width: 60%;
+            text-align: center;
+            padding-right: 1%;
+            font-size: 22px;
+            padding-bottom: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        column-gap: 0px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10%;
+        }
+        #doisimgpi{
+            width: 60%;
+            padding-left: 1%;
+           font-size: 18px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction: column;
+            column-gap: 10px;
+            padding-top: 20%;
+            padding-bottom: 1%;
+            }
+           
+    }
